@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000;
+    color: lightgray;
+}
+
+.wrapper {
+    width: 1500px;
+    margin: 0 auto;
+    background: #000;
+    /* background: #46464694; */
+}
+
+.container {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: lightgray;
+}
+
+.container ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container ul li {
+    list-style: none;
+}
+
+.container ul li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 15px;
+    color: ghostwhite;
+    font-size: 2rem;
+}
+
+footer {
+    text-align: center;
+    height: 0 auto;
+    margin: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.greeting-heading {
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    font-size: 4rem;
+    font-style: italic;
+    top: 0;
+}
+
+.front-content {
+    width: 72%;
+    margin:  20px 0 0 40px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgba(180, 180, 180, 0.94);
+}
+
+.wrapper-one {
+    margin: auto;
+    padding: 20px;
+    width: 85%;
+    display: flex;
+    justify-content:space-between;
+    gap: 20px;
+    border:rgba(255, 255, 255, 0.604);
+}
+
+.my-photo {
+    margin: auto;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.span-one {
+    margin-left: 80px;
+}
+
+.span-two {
+    margin-left: 80px;
+}
